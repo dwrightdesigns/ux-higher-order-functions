@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1519520104014-df63821cb6f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+      no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.logo {
+  text-align: center;
+  padding: 30px;
+  color: midnightblue;
+}
+
+.container {
+  padding: 4rem;
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ee5f5b;
+  border-color: #c43c35;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+}
+
+button:active {
+  top: 2px;
+}
+
+button:hover {
+  background-color: #ee5f5b;
+  opacity: 0.75;
+}
+
+button:active {
+  background-color: #c43c35;
+}
+
+.button-group {
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 720px;
+  text-align: center;
+  display: flex;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#showGarden {
+  border-radius: 4px 0 0 4px;
+}
+
+#showAll {
+  border-radius: 0 4px 4px 0;
+}
+
+ul {
+  line-height: 3rem;
+  list-style-type: square;
+  color: midnightblue;
+}
